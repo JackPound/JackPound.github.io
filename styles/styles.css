@@ -1,4 +1,4 @@
-.pageHead {
+/*.pageHead {
 	margin-top: 5px;
 	color: lightgrey;
 	text-align: center;
@@ -6,12 +6,28 @@
 .navList {
 	text-align: center;
 	margin-bottom: 20px;
-}
-.footer {
-	position: fixed;
-	bottom: 0;
+}*/
+.left-bar {
 	left: 0;
-	right: 0;
-	text-align: center;
-	background-color: lightgrey;
+	top: 0;
+	bottom: 0;
+	width: 25%;
+	border: 1px solid black;
+	position: fixed;
+}
+.portrait {
+	border: 1px solid black;
+}
+.navigation {
+	border: 1px solid black;
+}
+.small-contact-icon {
+	border: 1px solid black;
+}
+.aside-footer {
+	position: absolute;
+	bottom: 0;
+}
+.main-content {
+	margin-left: 25%;
 }
