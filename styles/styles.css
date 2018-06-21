@@ -45,15 +45,29 @@
 }
 .nav-links {
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
 	padding: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding-left: 20px;
 }
 .nav-links a {
 	color: lightgrey;
 }
 .small-contact-icon {
 	border: 1px solid black;
+	padding-left: 20px;
+}
+.icon-link {
+	display: inline-block;
+	width: 30px;
+	
+}
+.icon-link a {
+	color: lightgrey;
+}
+.gh-link {
+	background-image: url(../images/GitHub-Mark-64px.png);
+	z-index: -2;
 }
 .aside-footer {
 	position: absolute;
