@@ -1,33 +1,65 @@
-/*.pageHead {
-	margin-top: 5px;
-	color: lightgrey;
-	text-align: center;
-}
-.navList {
-	text-align: center;
-	margin-bottom: 20px;
-}*/
+/*BREAKPOINT 1050*/
+
 .left-bar {
 	left: 0;
 	top: 0;
 	bottom: 0;
 	width: 25%;
-	border: 1px solid black;
 	position: fixed;
+	background-image: url("../images/trees.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.color-filter {
+	background-color: rgba(31, 116, 48, .6);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 30px 20px;
 }
 .portrait {
-	border: 1px solid black;
+	padding: 25px;
+}
+.job-title {
+	font-size: 1.15em;
+	font-weight: lighter;
+}
+.my-name {
+	font-size: 1.5em;
+}
+.portrait img {
+	display: block;
+	margin: auto;
+	max-height: 150px;
+	max-width: 150px;
+	border-radius: 50%;
+	
+}
+.portrait p {
+	text-align: center;
+	margin-bottom: 0;
 }
 .navigation {
-	border: 1px solid black;
+}
+.nav-links {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+.nav-links a {
+	color: lightgrey;
 }
 .small-contact-icon {
 	border: 1px solid black;
 }
 .aside-footer {
 	position: absolute;
-	bottom: 0;
+	bottom: -6px;
 }
 .main-content {
 	margin-left: 25%;
+	padding: 30px 15px;
 }
