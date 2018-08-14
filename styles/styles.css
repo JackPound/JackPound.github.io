@@ -1,5 +1,7 @@
 /*BREAKPOINT 1050*/
-
+body {
+	font-family: "arvo";
+}
 .left-bar {
 	left: 0;
 	top: 0;
@@ -9,6 +11,8 @@
 	background-image: url("../images/trees.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	padding: 30px;
+	border-radius: 0 7px 7px 0;
 }
 .color-filter {
 	background-color: rgba(31, 116, 48, .6);
@@ -18,16 +22,18 @@
 	top: 0;
 	left: 0;
 	padding: 30px 20px;
+	border-radius: 0 7px 7px 0;
 }
 .portrait {
 	padding: 25px;
 }
 .job-title {
-	font-size: 1.15em;
+	font-size: 1.1em;
 	font-weight: lighter;
 }
 .my-name {
-	font-size: 1.5em;
+	font-size: 1.3em;
+	font-weight: bolder;
 }
 .portrait img {
 	display: block;
@@ -66,7 +72,7 @@
 	color: lightgrey;
 }
 .gh-link {
-	background-image: url(../images/GitHub-Mark-64px.png);
+	/*background-image: url(../images/GitHub-Mark-64px.png);*/
 	z-index: ;
 }
 .aside-footer {
@@ -75,5 +81,5 @@
 }
 .main-content {
 	margin-left: 25%;
-	padding: 30px 15px;
+	padding: 50px 15px;
 }
