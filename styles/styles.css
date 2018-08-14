@@ -1,6 +1,6 @@
 /*BREAKPOINT 1050*/
 
-.left-bar {
+/*.left-bar {
 	left: 0;
 	top: 0;
 	bottom: 0;
@@ -37,10 +37,6 @@
 	border-radius: 50%;
 	
 }
-.portrait p {
-	text-align: center;
-	margin-bottom: 0;
-}
 .navigation {
 }
 .nav-links {
@@ -73,7 +69,11 @@
 	position: absolute;
 	bottom: -6px;
 }
+.portrait p {
+	text-align: center;
+	margin-bottom: 0;
+}
 .main-content {
 	margin-left: 25%;
 	padding: 30px 15px;
-}
+}*/
