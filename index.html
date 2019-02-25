@@ -18,10 +18,8 @@
 				</div>
 				<div class="navigation">
 					<ul class="nav-links">
-						<li><a href="#brand">Back To Top</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#skills">Skills</a></li>
 						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -33,7 +31,7 @@
 						<a href="https://github.com/JackPound"><img src="./images/GitHub-Mark-64px.png"></a>
 					</div>					
 					<div class="icon-link">
-						<a href="#"><img src="./images/email.png"></a>
+						<a href="mailto:jackpound@live.com"><img src="./images/email.png"></a>
 					</div>
 				</div>
 				<div class="aside-footer">
@@ -43,23 +41,25 @@
 		</aside>
 		<div class="main-content">
 			<div class='long-column'>
-				<div id="brand">
-					<h3>My Brand</h3>
+				<div id='about'>
+					<h3>About</h3>
 					<p>Motivated by exploration of the constantly evolving software development landscape. I love discovering and applying new concepts, nothing is more satisfying than fitting the right tool to the right problem!</p>
+					<p>I recently went through a Web Development Plus program with General Assembly and am currently looking for employment as a Web Developer in Seattle.</p>
+					<p>My program at General Assembly was a three month course focused on full stack development. With a cohort of eight others we spent 40+ hours a week going over a curriculum that covered the following roughly in order:</p>
+					<ul>
+						<li>HTML and CSS</li>
+						<li>Javascript and OOP fundamentals</li>
+						<li>RESTful api's and CRUD methods</li>
+						<li>Node JS and Express</li>
+						<li>MongoDB and mongoose</li>
+						<li>React</li>
+						<li>Phtyon</li>
+						<li>Django</li>
+					</ul>
 					<hr/>
 				</div>
 				<div id="projects">
 					<h3 id="projects">Projects</h3>
-					<div class='single-project'>
-						<a href='https://jackpound.github.io/rat_smasher_deluxe_2.0/' target='_blank' class="project-link">Rat Smasher Deluxe 2.0</a>
-						<img src='./images/RatSmasherSS.png' class='project-screenshot'>
-						<p>My first project using HTML, CSS and javascript. This was bulit using the HTML canvas framework Phaser. The GitHub <a href='https://github.com/JackPound/rat_smasher_deluxe_2.0/tree/gh-pages' target='_blank'>readme</a> for the project is more in depth about issues I had and techniques used. I still have plans for fixing and updating this to a state where I can launch it on itch.io.</p>
-					</div>
-					<div class='single-project'>
-						<a href='#' target='_blank' class='project-link'>Gamers Unite</a>
-						<img src='./images/RatSmasherSS.png' class='project-screenshot'>
-						<p>Project descritpion of gamers unite</p>
-					</div>
 					<div class='single-project'>
 						<a href='https://pack-a-pack.herokuapp.com/' target='_blank' class='project-link'>Pack-A-Pack</a>
 						<div class="slideshow-container">
@@ -95,34 +95,31 @@
 						</div>
 						<p>This project was made with django and Postgresql to showcase using authentication and CRUD methods. You can create a profile and add upcoming trips and the bags you will be taking. Then you can pack items into your bags from a database of items that are common while traveling. The 'Size' for bags and items that are packable are completely arbitrary, they do not correlate to any real world measurements, i.e. liters which is common for backpack volume measurement. To take this project further I would allow users to create Items for themselves that they are traveling with, alongside commonly brought items. <a href="https://github.com/JackPound/pack-a-pack">GitHub</a></p>
 					</div>
+					<div class='single-project'>
+						<a href='#' target='_blank' class='project-link'>Pathfinder Character Generator</a>
+						<p>This is the project I'm most excited about lately, it is going to be a recreation of character creation in the game Pathfinder:Kingmaker for PC. It will faithfully recreate all aspects of character generation and allow you to plan skills and attributes for all 20 character levels. With this tool you can theorycraft different builds and plan your character's progression through the game to see what abilities are available at later levels without commiting to a build in your current game.</p>
+						<img src='./images/kingmaker2.png' class='project-screenshot'>
+					</div>
+					<div class='single-project'>
+						<a href='https://github.com/JackPound/gamers-unite-back' target='_blank' class='project-link'>Gamers United</a>
+						<p>Gamers United is an app to find strangers who play the same games as you and team up with them to play online. You could sign up, browse popular multiplayer games, then a discover feature would match you with other users that played the same games. This is an older project that is currently not deployed because of node modules depreciating that I used for gathering games. I'm looking for a substitute to get this back online. It is a node.js backend and react front end hosted seperately.</p>
+					</div>
+					<div class='single-project'>
+						<a href='https://jackpound.github.io/rat_smasher_deluxe_2.0/' target='_blank' class="project-link">Rat Smasher Deluxe 2.0</a>
+						<img src='./images/RatSmasherSS.png' class='project-screenshot'>
+						<p>My first project using HTML, CSS and javascript. This was bulit using the HTML canvas framework Phaser. The GitHub <a href='https://github.com/JackPound/rat_smasher_deluxe_2.0/tree/gh-pages' target='_blank'>readme</a> for the project is more in depth about issues I had and techniques used. I still have plans for fixing and updating this to a state where I can launch it on itch.io.</p>
+					</div>
 					<hr/>
 				</div>
-				<div id='skills'>
+				<!-- <div id='skills'>
 					<h3>Skills</h3>
-					<p>List of skills and projects referenced</p>
-					<p><a href='#'>Resume as pdf</a>Open in browser and download seperate links</p>
-					<p>jquery, javascript, html5, css3, bootstrap, react, python, django, postgresql, django, github, node.js</p>
+					<p></p>
 					<hr/>
-				</div>
-				<div id='about'>
-					<h3>About Me</h3>
-					<p>I recently went through a Web Development Plus program with General Assembly in Seattle and am currently looking for employment as a Web Developer in Seattle.</p>
-					<p>My program at General Assembly was a three month course focused on full stack development. With a cohort of eight others we spent 40+ hours a week going over a curriculum that covered the following roughly in order:</p>
-					<ul>
-						<li>HTML and CSS</li>
-						<li>Javascript and OOP fundamentals</li>
-						<li>RESTful api's and CRUD methods</li>
-						<li>Node JS and Express</li>
-						<li>MongoDB and mongoose</li>
-						<li>React</li>
-						<li>Phtyon</li>
-						<li>Django</li>
-					</ul>
-					<hr/>
-				</div>
+				</div> -->
 				<div id='contact'>
 					<h3>Contact Info</h3>
 					<p>I am currently looking for full stack web development positions in the Seattle area, but would be open to front or back end specific positions as well.</p>
+					<p><a href='https://docs.google.com/document/d/1PzARALOtbK-NMROzx-aX4mQTeB26r764Bk2jQjIsZ7o/edit?usp=sharing'>Resume</a></p>
 					<ul>
 						<li>Email: jackpound@live.com</li>
 						<li>LinkedIn: <a href='https://www.linkedin.com/in/jackpound/'>/jackpound</a></li>
